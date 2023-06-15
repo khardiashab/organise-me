@@ -1,0 +1,32 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "type": "module",
+  "dependencies": {
+    "@auth0/auth0-react": "^2.1.0",
+    "axios": "^1.4.0",
+    "react": "18.2.0",
+    "react-calendar": "^4.2.1",
+    "react-dom": "18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-scripts": "4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "react-router-dom": "^6.11.2"
+  }
+}
