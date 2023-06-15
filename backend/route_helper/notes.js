@@ -74,7 +74,6 @@ export const SearchNotes = async (req, res, next) => {
     }
   ]);
 
-    console.log(searchResults)
 
     res.status(200).json({data : searchResults})
 
